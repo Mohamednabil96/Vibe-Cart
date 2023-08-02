@@ -1,0 +1,46 @@
+{
+  "products": [
+    {
+      "productName": "Pants",
+      "price": "799",
+      "quantity": 9,
+      "image": "p1.jpg",
+      "id": 1
+    },
+    {
+      "id": 2,
+      "productName": "Jacket",
+      "price": 1100,
+      "quantity": 7,
+      "image": "p2.jpg"
+    },
+    {
+      "productName": "Shoes",
+      "price": "79896",
+      "quantity": 3,
+      "image": "p3.jpg",
+      "id": 3
+    },
+    {
+      "id": 4,
+      "productName": "Socks",
+      "price": 119,
+      "quantity": 5,
+      "image": "p4.jpg"
+    },
+    {
+      "id": 5,
+      "productName": "Hoodie",
+      "price": 799,
+      "quantity": 3,
+      "image": "p5.jpg"
+    },
+    {
+      "id": 6,
+      "productName": "Sweatshirt",
+      "price": 649,
+      "quantity": 2,
+      "image": "p6.jpg"
+    }
+  ]
+}

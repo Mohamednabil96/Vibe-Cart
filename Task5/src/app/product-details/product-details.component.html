@@ -1,0 +1,25 @@
+<section class="container my-4">
+    <h2 class="text-center mb-4">Product ({{ productId }}) Details</h2>
+    <div class="row text-center justify-content-center">
+      <div class="col-md-4 mb-4" >
+        <div class="card">
+          <img src="assets/images/{{ product.image }}" class="card-img-top">
+          <div class="card-body">
+            <h5 class="card-title">{{ product.productName }}</h5>
+            <p class="card-text"> Price : {{ product.price }}</p>
+            <p class="card-text">Quantity :  {{ product.quantity }} in stock</p>
+            <div>
+              <i class="text-warning mx-1 bi bi-star-fill"></i>
+              <i class="text-warning mx-1 bi bi-star-fill"></i>
+              <i class="text-warning mx-1 bi bi-star-fill"></i>
+              <i class="text-warning mx-1 bi bi-star-fill"></i>
+              <i class="text-warning mx-1 bi bi-star-fill"></i>
+            </div>
+            <button (click)="backToHome()" class="btn btn-outline-primary mt-3">
+              Back To Products
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+</section>

@@ -1,0 +1,49 @@
+footer {
+    text-align: center;
+    color: #fff;
+    padding: 20px 0 0;
+    background: black;
+}
+
+footer .copyright {
+    margin-bottom: 0.5rem;
+}
+
+footer .credits a {
+    color: #fff;
+}
+
+.social-icons ul {
+    list-style-type: none;
+    align-items: center;
+}
+
+.social-icons  ul li {
+    display: inline-block;
+    font-size: 16px;
+    margin: 0 10px 0;
+}
+
+.social-icons  ul li a {
+    text-decoration: none;
+    color: #f1f1f1;
+}
+
+.social-icons  ul li a:hover {
+    color: #69bb7e;
+}
+
+.copy-right {
+    font-size: 16px;
+    color: #f1f1f1;
+}
+
+.social-icons  .copy-right a {
+    font-size: 16px;
+    text-decoration: none;
+    color: #ff305b;
+}
+
+.social-icons  .copy-right a:hover {
+    text-decoration: underline;
+}
